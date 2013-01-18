@@ -4,16 +4,10 @@ A small ruby module for parsing a string of T-SQL and splitting on `go` statemen
 
 ## Installation
 
-Install the latest stable release:
-
-```
-[sudo] gem install tsql_go_parser
-```
-
 In Rails, add it to your Gemfile:
 
 ```ruby
-gem 'tsql_go_parser'
+gem 'tsql_go_parser', :git => 'git://github.com/veracross/tsql_go_parser.git'
 ```
 
 ## Usage
